@@ -1,0 +1,10 @@
+create database `tourdb`;
+CREATE  TABLE `tourdb`.`tourdata`(`idtourdata2` INT NOT NULL ,
+`tourname` VARCHAR(45) NOT NULL ,
+`sourcename` VARCHAR(45) NOT NULL ,
+`destinationname` VARCHAR(45) NOT NULL ,
+`viapoint1` VARCHAR(45) NULL ,
+`viapoint2` VARCHAR(45) NULL ,
+`tourdate` VARCHAR(45) NULL ,
+`travelagent` VARCHAR(45) NULL ,
+PRIMARY KEY (`idtourdata`) );
